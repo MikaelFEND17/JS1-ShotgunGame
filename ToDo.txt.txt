@@ -1,0 +1,7 @@
+Allt...
+
+1. Rubrik
+2. Spelar frames
+3. Game State
+4. Antal kulor från javascript
+5. ...
