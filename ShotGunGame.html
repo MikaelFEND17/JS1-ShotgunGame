@@ -7,28 +7,43 @@
 
         <link rel="stylesheet" type="text/css" href="style.css">
 
-        <script type="text/javascript" src="ShotGunGame.js"></script>
+        <script type="text/javascript" src="ShotGunGame.js" defer></script>
         
     </head>
     <body>  
-        
         <div id="Content">
 
-            <input type="checkbox" name="action" value="Shoot">Shoot<br>
-            <input type="checkbox" name="action" value="Reload">Reload<br>
-            <input type="checkbox" name="action" value="Block" checked>Block<br>
-            <input type="submit" value="Do Action">
+            <h1>Shotgun Game</h1>
 
             <hr>
-
-            <p>Turn: 0</p>
-            <p>Player Shots: 0</p>
-            <p>Computer Shots: 0</p>
-
+            <div id="GameInformation">
+                <p id="TurnInfo">Turn: 0</p>
+                
+                <p id="PlayerText"></p>
+                <p id="PlayerAction"></p>
+                <p id="PlayerShots"></p>
+                <p id="ComputerText"></p>
+                <p id="ComputerAction"></p>
+                <p id="ComputerShots"></p>
+            </div>
             <hr>
 
-            <p>cOMBAT lOG</p>
+            <div id="GameState">
+            </div>
+
+            <div id="GameButtons">
+                <button id="ButtonShoot">Shoot</button> 
+                <button id="ButtonReload">Reload</button> 
+                <button id="ButtonBlock">Block</button> 
+                <button id="ButtonShotgun">ShotGun!</button><br />
+            </div>
+            <hr>
+
+            <div id="GameCombatLog">
+                <p>Combat Log:</p>
+            </div>
         </div>
 
-    </body>
-</html>
+        </body>
+
+        </html>

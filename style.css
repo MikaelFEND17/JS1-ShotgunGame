@@ -8,3 +8,24 @@ body
     margin: auto;
     width: 800px;
 }
+
+#CombatLog
+{
+    width: 800px;
+}
+
+.BulletsText
+{
+    color: #000000;
+    font-weight: bold;
+}
+
+.Bullets
+{
+    color: #000000;
+}
+
+.LogMessage
+{
+    color: #000000;    
+}
