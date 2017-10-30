@@ -29,3 +29,41 @@ body
 {
     color: #000000;    
 }
+
+#TurnInfo
+{
+    text-align: center;
+}
+
+#GameInformation 
+{
+    display: flex; 
+    justify-content: space-around
+}
+
+
+#GameState 
+{
+    text-align: center;
+}
+
+#GameButtons
+{
+    display: flex; 
+    justify-content: center;
+}
+#NewGameButton
+{
+    text-align: center;
+}
+
+#ButtonNewGame
+{
+    display: none;
+}
+
+
+.BoldText
+{
+    font-weight: bold;
+}

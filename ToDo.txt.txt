@@ -1,7 +1,5 @@
-Allt...
+ToDo:
 
-1. Rubrik
-2. Spelar frames
-3. Game State
-4. Antal kulor från javascript
-5. ...
+1. Spelar Frames
+2. br i combat log
+3. New Game funktion

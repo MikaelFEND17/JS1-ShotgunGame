@@ -17,30 +17,44 @@
 
             <hr>
             <div id="GameInformation">
-                <p id="TurnInfo">Turn: 0</p>
-                
-                <p id="PlayerText"></p>
-                <p id="PlayerAction"></p>
-                <p id="PlayerShots"></p>
-                <p id="ComputerText"></p>
-                <p id="ComputerAction"></p>
-                <p id="ComputerShots"></p>
+                <br />
+
+                <div id="Player1Box">
+                   <p id="Player1Text"></p>
+                   <p id="Player1Action"></p>
+                   <p id="Player1Shots"></p>
+                </div>
+                <div>      
+                  <p id="TurnInfo"><span class="BoldText">Turn: </span>0</p>
+                </div>
+                <div id="Player2Box">
+                   <p id="Player2Text"></p>
+                   <p id="Player2Action"></p>
+                   <p id="Player2Shots"></p>
+                </div>
             </div>
             <hr>
 
             <div id="GameState">
+                <h1 id="GameStateBig">Waiting for actions!</h1>
+                <p id="GameStateLastRound"></p>
             </div>
 
+            <hr>
             <div id="GameButtons">
                 <button id="ButtonShoot">Shoot</button> 
                 <button id="ButtonReload">Reload</button> 
                 <button id="ButtonBlock">Block</button> 
-                <button id="ButtonShotgun">ShotGun!</button><br />
+                <button id="ButtonShotgun">ShotGun!</button>
+                <button id="ButtonNewGame">New Game</button>
+            </div>
+                
+            <div id="NewGameButton">
             </div>
             <hr>
 
             <div id="GameCombatLog">
-                <p>Combat Log:</p>
+                
             </div>
         </div>
 
