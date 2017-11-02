@@ -3,6 +3,16 @@ body
     background-color: #FFFFFF;
 }
 
+h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 #Content 
 {
     margin: auto;
@@ -17,6 +27,7 @@ body
 .BulletsText
 {
     color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
 
@@ -41,6 +52,17 @@ body
     justify-content: space-around
 }
 
+#BoomImage 
+{
+    opacity: 0;
+    z-index: 0;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    display: none;
+}
 
 #GameState 
 {
@@ -65,5 +87,26 @@ body
 
 .BoldText
 {
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
+
+.FadeInAndOut
+{
+    -webkit-animation: fadeinout 1s linear 1 forwards;
+    animation: fadeinout 1s linear 1 forwards;
+}
+
+@keyframes fadeinout 
+{
+    0%,100% { opacity: 0; }
+    50% { opacity: 1; }
+}
+
+
+@-webkit-keyframes fadeinout 
+{
+    0%,100% { opacity: 0; }
+    50% { opacity: 1; }
+}
+

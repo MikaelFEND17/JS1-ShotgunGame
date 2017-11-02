@@ -40,6 +40,9 @@ gameInfoPlayerShots[1].innerHTML = '<span class="BoldText">Computer shots: </spa
 var gameState = document.getElementById("GameStateBig");
 var gameStateLastRound = document.getElementById("GameStateLastRound");
 
+
+var gameBoomImage = document.getElementById("BoomImage");
+
 // Combat Log 
 
 var gameCombatLog = document.getElementById("GameCombatLog");
@@ -239,6 +242,11 @@ function ShotGunGame()
         buttonShotgun.disabled = true;
 
         buttonNewGame.style.display = "block";
+
+        gameBoomImage.className = "FadeInAndOut";
+        gameBoomImage.style.display = "block";
+
+        setTimeout(function(){ gameBoomImage.style.display = "none"; }, 2000);
 
     }
 
