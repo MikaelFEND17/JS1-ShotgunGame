@@ -1,5 +1,3 @@
 ToDo:
 
-1. Spelar Frames
-2. br i combat log
-3. New Game funktion
+1. Combat Log Show Hide
